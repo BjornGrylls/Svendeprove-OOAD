@@ -1,17 +1,70 @@
-<mxfile host="app.diagrams.net" modified="2023-04-18T10:04:11.142Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="0C5kZeZFmQerY6F10p6l" version="21.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-18T10:20:20.055Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.39" etag="GmPhzArnfvIgi2cfDcjN" version="21.1.8" type="github">
   <diagram name="Page-1" id="NkprQJH01LdGCqszJBk1">
-    <mxGraphModel dx="1304" dy="716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="eYq6PcUIMY6iADh9rWsP-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="140" y="190" width="30" height="60" as="geometry" />
+        <mxCell id="eYq6PcUIMY6iADh9rWsP-4" value="" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="260" y="70" width="310" height="630" as="geometry" />
         </mxCell>
-        <mxCell id="eYq6PcUIMY6iADh9rWsP-4" value="S" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="220" y="120" width="330" height="330" as="geometry" />
+        <mxCell id="eYq6PcUIMY6iADh9rWsP-1" value="Personale" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="140" y="270" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eYq6PcUIMY6iADh9rWsP-5" value="System" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="310" y="150" width="60" height="30" as="geometry" />
+        <mxCell id="eYq6PcUIMY6iADh9rWsP-5" value="System" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="384" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hw5vtnx-akOWsNqT5xfV-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="Hw5vtnx-akOWsNqT5xfV-1" target="eYq6PcUIMY6iADh9rWsP-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hw5vtnx-akOWsNqT5xfV-1" value="Se og vælg våben" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="132" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Hw5vtnx-akOWsNqT5xfV-4" value="Administrator" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="140" y="550" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hw5vtnx-akOWsNqT5xfV-16" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="Hw5vtnx-akOWsNqT5xfV-6" target="Hw5vtnx-akOWsNqT5xfV-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hw5vtnx-akOWsNqT5xfV-6" value="&amp;lt;&amp;lt;actor&amp;gt;&amp;gt;&lt;br&gt;Politiets fremtidige system" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="650" y="262" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Hw5vtnx-akOWsNqT5xfV-12" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="Hw5vtnx-akOWsNqT5xfV-7" target="Hw5vtnx-akOWsNqT5xfV-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hw5vtnx-akOWsNqT5xfV-7" value="Analyser logs" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="600" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Hw5vtnx-akOWsNqT5xfV-14" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="Hw5vtnx-akOWsNqT5xfV-13" target="Hw5vtnx-akOWsNqT5xfV-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hw5vtnx-akOWsNqT5xfV-13" value="Tilføj våben og skytter" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="540" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Hw5vtnx-akOWsNqT5xfV-19" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="Hw5vtnx-akOWsNqT5xfV-15" target="eYq6PcUIMY6iADh9rWsP-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hw5vtnx-akOWsNqT5xfV-15" value="Se status på våben" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="277" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Hw5vtnx-akOWsNqT5xfV-18" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="Hw5vtnx-akOWsNqT5xfV-17" target="eYq6PcUIMY6iADh9rWsP-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hw5vtnx-akOWsNqT5xfV-17" value="Se og vælg skytter" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="202" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Hw5vtnx-akOWsNqT5xfV-21" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="Hw5vtnx-akOWsNqT5xfV-20" target="eYq6PcUIMY6iADh9rWsP-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hw5vtnx-akOWsNqT5xfV-20" value="Indlever våben" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="420" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Hw5vtnx-akOWsNqT5xfV-23" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="Hw5vtnx-akOWsNqT5xfV-22" target="eYq6PcUIMY6iADh9rWsP-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hw5vtnx-akOWsNqT5xfV-22" value="Generer transporttilladelse" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="350" width="120" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
